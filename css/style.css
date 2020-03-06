@@ -64,24 +64,15 @@ align-items: center;
  .c_box_6 .cb6_bottom,.c_box_7 .cb7_bottom, .c_box_8 .cb8_bottom, .c_box_9 .cb9_bottom, .c_box_10 .cb10_bottom { overflow: hidden ;}
 
  .cb5_bottom1, .cb5_bottom2 { overflow: hidden; }
+
  .cb7_left,.cb7_right { overflow: hidden; }
+ .cb6_middle > div { overflow: hidden; }
 
  /* content */
 
 
 
-/* footer */
-.wrap .footer {width:100%; overflow:hidden;}
-.wrap .footer .f_top {width:100%; overflow:hidden; min-height:50px; border-top:2px solid #dddddd;}
-.wrap .footer .f_top ul {width:100; overflow:hidden; }
-.wrap .footer .f_top ul li {float:left; border-right:2px solid #ddd; padding:0px 30px; margin-top:16px; font-size:15px; cursor:pointer;}
-.wrap .footer .f_top ul li:first-child {padding-left:0px !important;}
-.wrap .footer .f_top ul li:last-child {border:none;}
-.wrap .footer .f_middle {width:100%; overflow:hidden; min-height:50px; background-color:#4e575e; text-align: left;}
-.wrap .footer .f_middle > div {padding:10px 0px;}
-.wrap .footer .f_middle > div ul {width:100%; overflow:hidden;}
-.wrap .footer .f_middle > div ul li {color:#ffffff; font-size:13px;}
-/* footer */
+
 
 /* common  */
 
@@ -111,10 +102,28 @@ align-items: center;
 /* media */
 
 @media screen and (max-width: 992px)  {
+    /* .hdt_logo a:last-child { right: 5% !important } */
+    /* .header .store_adm { right: 7%; font-size: 14px !important } */
+    .header .login { font-size: 14px !important }
     .cb9_bottom li img {width:50%;}
+    .cb7_right { margin: 3% 0; padding: 3% 0; }
+    .cb7_top{ padding-top: 3%; }
+
 }
 
 
 @media screen and (max-width: 768px)  {
+    .header .login { right: 7%; font-size: 13px; }
     .cb9_bottom li img {width:80%;}
+    .c_box_6 .cb6_middle .cb6_m_0 { margin-top: 0 !important; }
+}
+@media screen and (max-width: 600px)  {
+    .header .login { font-size: 12px !important }
+}
+@media screen and (max-width: 500px)  {
+    .header .login { margin:14px 0; }
+    .header h1 { margin-bottom: 15px;}
+    .wrap .footer .f_middle ul { width: 90% !important; margin:0 auto;}
+    .wrap .footer .f_content ul li {font-size: 13px !important; padding: 0 7px !important;}
+    
 }
