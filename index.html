@@ -10,8 +10,8 @@
         <meta http-equiv="pragma" content="no-cache" /> <!--캐쉬가 되지 않도록한다-->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
 		
-		<link rel="apple-touch-icon-precomposed" href="http://happy-pay
-		co.kr/images/icon.png" />
+		<!-- <link rel="apple-touch-icon-precomposed" href="http://happy-pay
+		co.kr/images/icon.png" /> -->
         <link rel="shortcut icon" href="http://happy-pay.co.kr/images/icon.png">
         <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -24,20 +24,24 @@
 		<link rel="apple-touch-icon" sizes="120x120" href="http://happy-pay.co.kr/images/favicon/120.png">
 		<link rel="apple-touch-icon" sizes="192x192" href="http://happy-pay.co.kr/images/favicon/192.png">
 
+		<script src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+
 		<!-- stylesheet -->
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/swiper.min.css" />
 		<!-- stylesheet -->
 		
 		<!-- jquery -->
-		<script src="//code.jquery.com/jquery-latest.min.js"></script>
-		<script src="//code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-		<!-- jquerysdf -->
+		<!-- <script src="//code.jquery.com/jquery-latest.min.js"></script>
+		<script src="//code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script> -->
+		<!-- jquery -->
 		
         <!--<script src="http://happy-pay.co.kr/js/COMMON.js"></script>
         <script src="http://happy-pay.co.kr/js/header.js"></script>-->
         <script src="http://happy-pay.co.kr/js/swiper.min.js"></script>
-        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d8d1072c27940f38098509b4de76a101"></script>
+        <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d8d1072c27940f38098509b4de76a101"></script> -->
 		
 		<script>
             var URL = "http://happy-pay.co.kr";
@@ -192,11 +196,15 @@
 						</div>
 					</div>
 					
-					<div class="cb4_middle">
+					<!-- <div class="cb4_middle">
 						<div class="col-md-3"></div>
 						<div class="col-md-3"><img src="images/G_logo.png" alt="Google play Logo"></div>
 						<div class="col-md-5"><h3>구글 앱스토어에서 해피쿠폰앱을 다운받으세요!</h3></div>
 						<div class="col-md-1"></div>
+					</div> -->
+					<div class="cb4_middle">
+						<img src="images/G_logo.png" alt="Google play Logo">
+						<h3>구글 앱스토어에서 해피쿠폰앱을 다운받으세요!</h3>
 					</div>
 					
 					<div class="cb4_bottom">
@@ -275,7 +283,7 @@
 					</div>
 
 					<div class="cb5_middle2">
-						<p><strong><img src="images/check_icon.png" alt="check_icon">혜택 하나</strong> 효율적인 가맹점 홍보</p>
+						<p><strong>혜택 하나</strong> 효율적인 가맹점 홍보</p>
                         <p>해피캐시 관련 홍보물(배너/스티커/포스터 등) 지원</p>
 					</div>
 
@@ -295,7 +303,7 @@
 				<div class="c_box_6 dw_1200px">
 					
 					<div class="cb6_top">
-						<p><strong><img src="images/check_icon.png" alt="check_icon">혜택 둘</strong> 일석이조 가맹점 방문 고객 포인트 적립</p>
+						<p><strong>혜택 둘</strong> 일석이조 가맹점 방문 고객 포인트 적립</p>
                         <p>회원이 <strong>리커버샵</strong>에서 사용한 포인트의 25%를 현금 리워드 해드립니다.</p>
                         <p>(ex) 회원이 100,000포인트 사용 시 사용 포인트의 35% 25,000원을 가맹점에 현금 리워드!</p>
 					</div>
@@ -473,7 +481,7 @@
 				<div class="ft_wrap">
 
 					<div class="f_top dw_1200px">
-						<div class = "f_content dw_1200px">
+						<div class = "f_content">
 							<ul>
 								<li class = "policy">이용약관</li>
 								<li class = "privacy">개인정보 취급방침</li>
@@ -496,132 +504,6 @@
 				
 			</div>
 			<!-- footer { -->
-				<style>
-
-					/* footer */
-
-					.wrap .footer {width:100%; overflow:hidden;}
-					.wrap .footer .f_top {width:100%; overflow:hidden; min-height:50px; border-top:2px solid #dddddd;}
-									
-					.wrap .footer .f_top ul { width:100%; overflow:hidden; }
-					.wrap .footer .f_top ul li { float:left; border-right:2px solid #ddd; padding:0px 30px; margin-top:16px; font-size:15px; cursor:pointer;}
-					.wrap .footer .f_top ul li:first-child { padding-left:0px !important;}
-					.wrap .footer .f_top ul li:last-child { border:none;}
-									
-					.wrap .footer .f_middle { width:100%; overflow:hidden; min-height:50px; background-color:#4e575e; text-align: left;}
-					.wrap .footer .f_middle { padding:10px 0px;}
-					.wrap .footer .f_middle ul { width:100%; overflow:hidden;}
-					.wrap .footer .f_middle ul li { color:#ffffff; font-size:13px;}
-					.wrap .footer .f_middle .dw_1200px { text-align: left; }
-
-					/* .wrap .footer .f_top ul { width: 90%; overflow: hidden; margin: 0 auto; }
-					.wrap .footer .f_middle ul { width: 90%; overflow: hidden; margin: 0 auto; } */
-					
-
-					/* footer */
-
-					.header { padding-bottom: 0.5% !important }
-					.header { width: 1200px; text-align: center; position: relative !important }
-					.header .login { position: absolute; top: 60px; right: 30px; font-size: 16px;}
-
-					.wrap .content .c_box_1 { margin: 3% auto; }
-					.wrap .content .c_box_1 > p { font-size: 20px; margin-bottom: 10px; }
-					.wrap .content .c_box_2 { margin-bottom: 5%; }
-					.cb2_bottom div ul li:nth-child(3) { margin-bottom: 5px; }
-					.cb2_bottom div ul li:nth-child(2) { font-size: 18px; color:#45bbeb; font-weight: 600; margin-bottom: 10px; }
-					.cb2_bottom div ul li:nth-child(3),.cb2_bottom div ul li:nth-child(4) { font-size: 15px; }
-					.cb2_bottom > ul li:nth-child(2),.cb2_bottom > ul li:nth-child(3),
-					.cb2_bottom > ul li:nth-child(4) { font-size: 16px; }
-					.cb5_bottom2 > img { padding-bottom: 30px; }
-					.wrap .content .c_box_2 .cb2_top > .smileIcon { margin-bottom: 30px;}
-
-					.cb4_middle > h3 { margin-top: 15px; font-size: 18px; color: #e3482c; }
-					.cb3_top div > ul li { font-size: 15px; }
-					.cb3_top div > ul li:nth-child(2),.cb3_top div > ul li:nth-child(3) { margin-bottom: 5px; }
-					.cb3_top div > ul li:nth-child(4) { margin-bottom: 20px; }
-
-					.c_box_4 { margin: 3% auto !important; }
-					.c_box_4 h3 { font-size: 22px; margin-top: 3%; }
-
-					.cb4_bottom  .c_btn {width:25px; height:25px; border-radius:30px; background-color: #45bbeb; line-height: 23px; color:#ffffff; margin:0 auto; font-weight:bold; margin-top: 4%}
-
-					/* .cb4_bottom { position: relative; } */
-					/* .cb4_bottom > div > div:nth-child(2) { position: relative; }
-					.cb4_bottom .c_btn { position: absolute; width:20px; height: 20px; background-color: #45bbeb; bottom: 0; color: white; border-radius: 100px; } */
-					/* .cb4_bottom > p { position: relative; }
-					.cb4_bottom .c_btn { position: absolute; width:20px; height: 20px; background-color: #45bbeb; bottom: 0; color: white; border-radius: 100px; } */
-
-					.cb4b_1 > .c_btn  { left: 50px; margin-top: 5px; }
-					.cb4b_2 > .c_btn  { left: 33px; margin-top: 5px; }
-					.cb4b_3 > .c_btn  { left: 37px; margin-top: 5px; }
-					.cb4b_4 > .c_btn  { left: 30px; margin-top: 5px; } 
-					.cb4b_5 > .c_btn  { left: 0; margin-top: 5px; }
-					.cb4b_6 > .c_btn  { left: 0; margin-top: 5px; }
-
-					.cb4b_1 > p  { margin-top: 5px; }
-					.cb4b_2 > p  { margin-top: 5px; }
-					.cb4b_3 > p  { margin-top: 5px; }
-					.cb4b_4 > p  { margin-top: 5px; } 
-					.cb4b_5 > p  { margin-top: 5px; }
-					.cb4b_6 > p  { margin-top: 5px; }
-
-					.cb4_middle { margin-bottom: 1%; }
-					
-					.c_box_5 { background-color:#f1f1f1; margin: 3% 0; text-align: center; }
-					.c_box_5 .cb5_top { margin: 30px 0; }
-					
-					.c_box_5 .cb5_middle2 > p { font-size: 18px;}
-					.c_box_5 .cb5_middle2 > p:first-child { margin-bottom: 1%; font-weight: 600; }
-					.c_box_5 .cb5_middle1 > p { margin-bottom: 1%; font-size: 18px; }
-					.c_box_5 .cb5_middle1 > p:last-child { margin-bottom: 40px; }
-					.c_box_5 .cb5_middle2 > p:first-child > strong { font-size: 22px; color:  #45bbeb;}
-
-					.cb6_middle > div:first-child { margin: 3% 0;}
-					.cb6_middle > div:first-child > img { margin-bottom: 1%; }
-					.cb6_middle > div:first-child > p { font-size: 16px; }
-					.cb6_top > p > strong, .cb6_middle > div:first-child > p > strong { color:#ed7c93; }
-
-					.c_box_6 .cb6_top { font-size: 22px; }
-					.cb6_middle { margin-bottom: 3%; }
-					.c_box_6 .cb6_middle div:nth-child(2) > .col-sm-2 { margin-top: 6%; }
-					.c_box_6 .cb6_top > p:first-child { font-weight: 600; }
-					.c_box_6 .cb6_top > p:first-child > strong { font-size: 22px; color:  #45bbeb; }
-					.c_box_6 .cb6_top > p:first-child ,.c_box_6 .cb6_top > p:nth-child(2) { margin-bottom: 1%;} 
-					.c_box_6 .cb6_top > p { font-size: 18px; }
-					
-					.c_box_7 { margin: 3% 0; text-align: center; background-color: #f2ebe3; padding-top: 1%; } 
-
-					/* .c_box_7 .cb7_top img { padding-left: 50%;}
-					.c_box_7 .cb7_right { padding-right: 20%;} */
-
-					.cb7_right { margin-top: 2%; }
-					.cb7_right p { font-size: 1.7rem; }
-					.cb7_right p:first-child { font-size: 2.2rem; font-weight: 600; margin-bottom: 3%; }
-					.cb7_right p:nth-child(2) { margin-bottom: 1%;}
-
-					.cb8_top,.cb9_top,.cb8_mb_3,.cb9_bottom,.cb10_middle { margin-bottom: 3%; }
-					.cb8_bottom { margin: 5% auto;}
-					/* .cb8_mb_3 img { width: 16%; } */
-					.cb9_bottom ul li img { width: 15%; }
-
-					
-					/* .wrap .content .c_box_9 .cb9_bottom ul { width:100%; overflow: hidden; }
-					.wrap .content .c_box_9 .cb9_bottom ul li { float: left; }
-					.wrap .content .c_box_9 .cb9_bottom ul li { margin-right: 1%; }
-					.wrap .content .c_box_9 .cb9_bottom ul li:last-child { margin-right: 0;} */
-					.wrap .content .c_box_9 .cb9_bottom img { border: 1px solid #cacaca; }
-					.wrap .content .c_box_9 .cb9_bottom .cb9_d1 { margin-bottom: 2%; }
-	
-
-
-					/* common */
-					.wrap .content .smileIcon img { margin-bottom: 10px; }
-					.wrap .content .smileIcon p { font-size: 21px; font-weight: 600; margin-bottom: 1%; }
-					/* common */
-
-					
-					
-				</style>
 
 			
 		</div>
