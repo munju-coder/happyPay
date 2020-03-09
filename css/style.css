@@ -160,6 +160,9 @@ table th, td { padding: 7px; color:#333; text-align: center;}
 .c_btn_box .w_btn { margin-top: 2%; }
 /* customer_style content */
 
+.menual_st { width: 100%; max-width: 1200px; margin: 1% auto; text-align: center; }
+.map_st { width: 100%; max-width: 1200px; margin: 1% auto; text-align: center; margin-bottom: 3%; }
+.map_st img { width: 80%; }
 /* footer */
 
 .wrap .footer {width:100%; overflow:hidden;}
@@ -239,6 +242,7 @@ table th, td { padding: 7px; color:#333; text-align: center;}
     .img_ml_10p{ margin-left: 8% !important;  }
     .wrap .c_middle .cm_top ul li { font-size: 14px; }
     table { font-size: 12px; }
+    .menual_st { width: 90%; } 
     
 }
 @media screen and (max-width: 650px)  {
