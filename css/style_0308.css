@@ -58,9 +58,7 @@ align-items: center;
     height: 25px;
     border-radius: 30px;
     background-color: #45bbeb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 25px;
     color: #ffffff;
     margin: 0 auto;
     font-weight: bold;
@@ -104,30 +102,64 @@ align-items: center;
 .advant div:first-child { padding: 5% 0; }
 .advant div p { font-size: 21px; }
 .advant div:first-child > p:first-child,.advant div:first-child > p:nth-child(2) { margin-bottom: 20px; }
-.advant div:nth-child(3) { display: flex; justify-content: center; }
+.advant div:nth-child(3) figure { float: left; width: 23%; }
+.advant div:nth-child(3)::after { content: ' '; display: block; overflow: hidden; clear: both; }
+.advant div:nth-child(3) figure:first-child,.advant div:nth-child(3) figure:nth-child(2),.advant div:nth-child(3) figure:nth-child(3)
+{ margin-right: 2%; }
+.advant div:nth-child(3) figure figcaption p { font-size: 15px; }
+.advant div:nth-child(3) figure figcaption p strong { font-weight: 600; }
+.advant div:nth-child(3) figure figcaption p:nth-child(2) { margin-bottom: 15px; }
+.advant div:nth-child(3) figure figcaption p:first-child { font-size: 18px; margin-bottom: 20px; color: #25afff; font-weight: 600; }
+
+/* .advant div:nth-child(3) { display: flex; justify-content: center; } 
 .advant div:nth-child(3) ul:not(:nth-child(4)) { margin-right: 30px; }
 .advant div:nth-child(3) ul li { word-break: keep-all;}
 .advant div:nth-child(3) ul li:nth-child(2),.advant div:nth-child(3) ul li:nth-child(3) { margin-bottom: 10px; }
 .advant div:nth-child(3) ul li:nth-child(2),.advant div:nth-child(3) ul li strong { font-weight: 600; }
-.advant div:nth-child(3) ul li:nth-child(2) { font-size: 18px; margin-bottom: 20px; color: #25afff;  }
+.advant div:nth-child(3) ul li:nth-child(2) { font-size: 18px; margin-bottom: 20px; color: #25afff;  } */
 /* advant */
 
 /* couponAd */
-.couponAd { display: flex; justify-content: center; margin: 5% auto;}
+/* .couponAd { display: flex; justify-content: center; margin: 5% auto;} */
+.couponAd { margin-bottom: 3%; }
 .couponAd div ul li:first-child { margin-bottom: 5%; }
 .couponAd div ul li { font-size: 16px; }
+.couponAd div ul .recover_btn { margin-top: 5%; } 
+/* .couponAd div ul { float: left; }
+.couponAd div::after { content: ' '; display: block; overflow: hidden; clear: both; } */
+.couponAd div:first-child { float: left; width: 45%; }
+
+.couponAd div:nth-child(2) { float: right; width: 45%; }
+.couponAd::after { content: ' '; display: block; overflow: hidden; clear: both; }
+/* .couponAd div ul::after { content: ' '; display: block; overflow: hidden; clear: both; } */
 .couponAd div ul li:nth-child(2),.couponAd div ul li:nth-child(3),.couponAd div ul li:last-child { margin-bottom: 3%; }
-.couponAd div ul li > .recover_btn { margin-top: 5%; }
+/* .couponAd div ul li > .recover_btn { margin-top: 5%; } */
 .couponAd > .smileIcon { margin-top: 3%; }
 /* couponAd */
 
 /* couponUse */
-.couponUse .app { display: flex; justify-content: center; }
-.couponUse div:nth-child(2) h3 { font-size: 21px; display: flex; align-items: center; color: #fb4d0a; }
+/* .couponUse .app { display: flex; justify-content: center; }
+.couponUse div:nth-child(2) h3 { font-size: 21px; display: flex; align-items: center; color: #fb4d0a; } */
 .couponUse > .smileIcon { margin-bottom: 2%; }
-.couponUse .mobile { display: flex; justify-content: center; margin-bottom: 5%; margin-top: 1%; }
-.couponUse .mobile > div:not(:last-child) { margin-right: 20px; }
-.couponUse .mobile > div > p { margin: 5% 0;}
+/* .couponUse .mobile { display: flex; justify-content: center; margin-bottom: 5%; margin-top: 1%; } */
+.couponUse .mobile div { float: left; width: 16%; }
+.couponUse .mobile::after { content: ' '; display: block; overflow: hidden; clear: both; }
+
+.couponUse .mobile div::after { content: ' '; display: block; overflow: hidden; clear: both; }
+.couponUse .mobile > div:not(:last-child) { margin-right: 5%; }
+.couponUse .mobile > div > p { margin: 5% 0; float: right; }
+/* .couponUse .app figure { float: left; } */
+/* .couponUse .app figure figcaption { float: right; width: 20%; } */
+/* .couponUse .app > div { float: left; }
+.couponUse .app > div > h3 { float: right; }
+.couponUse .app > div::after { content: ' '; display: block; overflow: hidden; clear: both; }   */
+/* .couponUse .app { float: left; }
+.couponUse::after { content: ' '; display: block; overflow: hidden; clear: both; } */
+/* .couponUse .app h3 { float: right; width: 60%; }
+.couponUse .app > img { float: left; } */
+/* .couponUse .app figure::after { content: ' '; display: block; overflow: hidden; clear: both; }  */
+
+
 /* couponUse */
 
 /* franschiseAdvant */
@@ -139,7 +171,11 @@ align-items: center;
 .franschiseAdvant div:nth-child(3) > p:first-child { font-weight: 600; }
 .franschiseAdvant div:nth-child(3) > p:first-child strong { font-weight: 600; font-size: 21px; color: #25afff; }
 .franschiseAdvant > .smileIcon { margin-bottom: 3%; }
-.franschiseAdvant .banner { display: flex; align-items: center; }
+/* .franschiseAdvant .banner { display: flex; align-items: center; } */
+.franschiseAdvant .banner { float: left; width: 80%; margin-left: 10%; }
+.franschiseAdvant::after { content: ' '; display: block; overflow: hidden; clear: both; } 
+.franschiseAdvant div:nth-child(3) { float: right; margin-top: -63%; width: 33%; margin-right: -4%; }
+
 /* franschiseAdvant */
 
 /* couponPoint */
@@ -150,7 +186,8 @@ align-items: center;
 .couponPoint div:first-child p:first-child { font-weight: 600; margin-bottom: 30px; }
 .couponPoint div:first-child p:nth-child(2) > strong,.couponPoint div:nth-child(2) p > strong { color:#ff5a7c; font-weight: 600; }
 .couponPoint div:nth-child(2) > img { margin: 20px 0; }
-.couponPoint div:nth-child(3) { margin: 3% 0; display: flex; justify-content: center; } 
+/* .couponPoint div:nth-child(3) { margin: 3% 0; display: flex; justify-content: center; }  */
+.couponPoint div:nth-child(3) { margin: 3% 0;}
 .couponPoint div:nth-child(3) ul { display: flex; justify-content: space-between; align-items: center; }
 .couponPoint div:nth-child(3) ul li:first-child,.couponPoint div:nth-child(3) ul li:nth-child(2) { margin-right: 30px; }
 /* couponPoint */
