@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+body{ font-family: 'Noto Sans KR', sans-serif;}
+/* @import url(//fonts.googleapis.com/earlyaccess/notosanskannada.css); 
+body {margin:0px; padding:0px; background:#ffffff; font-family:'Noto Sans Kannada', sans-serif; font-size:12px; color:#333;} */
+a {text-decoration:none; color:#333;}
+a:active, a:visited {text-decoration:none;}
+ul {list-style:none;}
+ul, li, p {margin:0px;padding:0px;}
+select, input[type=text], input[type=submit], input[type=button], input[type=password] {border:1px solid #aaa; color:#333; }
+input[type=submit], input[type=button], button {cursor:pointer;}
+table {width:100%;border: 1px solid #9e9e9e;border-collapse: collapse;}
+table th, td {border: 1px solid #9e9e9e;padding: 7px; color:#333;}
+.cursor_pointer {cursor:pointer;}
+
+/* common  */
+.wrap .content .smileIcon img { margin-bottom: 10px; }
+.wrap .content .smileIcon p { font-size: 21px; font-weight: 600; margin-bottom: 1%; }
+.c_box_1,.c_box_2,.c_box_3,.c_box_4,.c_box_5,.c_box_6,.c_box_7,.c_box_8,.c_box_9,.c_box_10 { overflow: hidden; }
+.c_box_1 .cb_top1,.c_box_2 .cb_top2, .c_box_3 .cb_top3, .c_box_4 .cb_top4,.c_box_5 .cb_top5,
+ .c_box_6 .cb_top6,.c_box_7 .cb_top7, .c_box_8 .cb_top8, .c_box_9 .cb_top9, .c_box_10 .cb_top10 { overflow: hidden; }
+
+ .c_box_1 .cb1_top,.c_box_2 .cb2_top, .c_box_3 .cb3_top, .c_box_4 .cb4_top,.c_box_5 .cb5_top,
+ .c_box_6 .cb6_top,.c_box_7 .cb7_top, .c_box_8 .cb8_top, .c_box_9 .cb9_top, .c_box_10 .cb10_top { overflow: hidden ;}
+
+ .c_box_1 .cb1_middle,.c_box_2 .cb2_middle, .c_box_3 .cb3_middle, .c_box_4 .cb4_middle,.c_box_5 .cb5_middle,
+ .c_box_6 .cb6_middle,.c_box_7 .cb7_middle, .c_box_8 .cb8_middle, .c_box_9 .cb9_middle, .c_box_10 .cb10_middle { overflow: hidden ;}
+
+ .c_box_1 .cb1_bottom,.c_box_2 .cb2_bottom, .c_box_3 .cb3_bottom, .c_box_4 .cb4_bottom,.c_box_5 .cb5_bottom,
+ .c_box_6 .cb6_bottom,.c_box_7 .cb7_bottom, .c_box_8 .cb8_bottom, .c_box_9 .cb9_bottom, .c_box_10 .cb10_bottom { overflow: hidden ;}
+.wrap { width:100%; overflow: hidden; }
+.wrap .header { width:100%; overflow: hidden; }
+.wrap .main_slide { width: 100%; overflow: hidden; }
+.wrap .content { width: 100%; overflow: hidden; }
+.smileIcon { text-align: center; }
+.wrap .footer { width: 100%; overflow: hidden; }
+.wrap .dw_100p { width:100%; overflow:hidden; }
+.wrap .dw_1200px { width:1200px; overflow:hidden; margin:0 auto; text-align: center; }
+.wrap .dw_1000px { width:1000px; overflow:hidden; margin:0 auto;}
+.recover_btn
+{ font-size:17px; font-weight:bold; padding:10px 0px; background-color: #d0d0d0; width:300px; text-align:center; margin:0 auto; cursor:pointer; }
+/* common  */
