@@ -166,7 +166,7 @@ table th, td { padding: 7px; color:#333; text-align: center;}
 /*menual_style*/
 
 /*max_style*/
-.map_st { width: 100%; max-width: 1200px; margin: 1% auto; text-align: center; }
+.map_st { width: 100%; max-width: 1200px; margin: 2% auto; text-align: center; }
 .map_st img { width: 80%; }
 /*max_style*/
 
@@ -340,7 +340,6 @@ table th, td { padding: 7px; color:#333; text-align: center;}
     .wrap .c_middle .cm_top ul li { font-size: 12px; }
     .bg_g .txt_l > a,.bg_w td:nth-child(2) a { width: 60px; display: block; padding: 0 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     table td { text-align: left; }
-    .top_text { font-size: 20px !important;  }
     
 }
 

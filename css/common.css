@@ -48,10 +48,8 @@ table th, td {/* border: 1px solid #9e9e9e; */padding: 7px; color:#333;}
     font-weight: bold;
 }
 
-.top_text { font-size: 30px; padding-bottom: 30px; border-bottom: 1px solid #dddddd; }
 .text_u {text-align:unset !important;}
-
-/* .txt_l {text-align:left;} */
-/* common  */
-
+.img_bottom { margin-bottom: 2%; }
+.top_text { font-size: 21px; }
+.footer .f_top .f_content ul li a { text-decoration: none;}
 
