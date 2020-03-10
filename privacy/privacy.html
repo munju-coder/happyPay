@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>해피페이</title>
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!--다양한 브라우저 상호 운용성 테스트를 정기적으로 유지 관리-->
+        <meta http-equiv="Content-type" content="text/html; charset=euc-kr">
+        <meta http-equiv="imagetoolbar" content="no" /> <!--이미지저장박스 안뜨도록-->
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="pragma" content="no-cache" /> <!--캐쉬가 되지 않도록한다-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+		
+		<!-- <link rel="apple-touch-icon-precomposed" href="http://happy-pay
+		co.kr/images/icon.png" /> -->
+        <link rel="shortcut icon" href="http://happy-pay.co.kr/images/icon.png">
+        <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="icon" type="image/png" sizes="32x32" href="http://happy-pay.co.kr/images/favicon/32.png">
+		<link rel="icon" type="image/png" sizes="128x128" href="http://happy-pay.co.kr/images/favicon/128.png">
+		<link rel="icon" type="image/png" sizes="512x512" href="http://happy-pay.co.kr/images/favicon/512.png">
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="http://happy-pay.co.kr/images/favicon/57.png">		
+		<link rel="apple-touch-icon" sizes="72x72" href="http://happy-pay.co.kr/images/favicon/72.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="http://happy-pay.co.kr/images/favicon/120.png">
+		<link rel="apple-touch-icon" sizes="192x192" href="http://happy-pay.co.kr/images/favicon/192.png">
+
+		<script src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+
+		<!-- stylesheet -->
+        <link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/swiper.min.css">
+        <link rel="stylesheet" href="../css/common.css">
+		<!-- stylesheet -->
+		
+		<!-- jquery -->
+		<!-- <script src="//code.jquery.com/jquery-latest.min.js"></script>
+		<script src="//code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script> -->
+		<!-- jquery -->
+		
+        <!--<script src="http://happy-pay.co.kr/js/COMMON.js"></script>
+        <script src="http://happy-pay.co.kr/js/header.js"></script>-->
+        <script src="http://happy-pay.co.kr/js/swiper.min.js"></script>
+        <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d8d1072c27940f38098509b4de76a101"></script> -->
+		
+		<script>
+            var URL = "http://happy-pay.co.kr";
+		</script>
+		
+		
+	</head>
+	 
+	<body>
+		<!-- wrap { -->
+		<div class="wrap">
+				<!-- header { -->
+				<div class = "header">
+					<h1><a href = "http://happy-pay.co.kr"><img src = "http://happy-pay.co.kr/images/logo.png"></a></h1>
+
+					<div class="login">
+						<a href="http://happycoupon.co.kr/" target = "_blank">가맹점 관리자 로그인</a>
+					</div>
+				</div>
+				<!-- header { -->
+
+                <!-- content -->
+                <div class="dw_100p">
+                    
+                    <div class="cb9_top top_text dw_1200px">
+						<p>개인정보취급방침</p>
+                    </div>
+                    
+                    <div class="terms">
+                        <p>해피페이 개인정보취급방침에서는 다음과 같은 사항을 규정합니다.</p>
+                        <div class="index">
+                            <ul>
+                                <li>제1조 총칙</li>
+                                <li>제2조 수집하는 개인정보 항목</li>
+                                <li>제3조 개인정보의 수집 및 이용목적</li>
+                                <li>제4조 개인정보의 보유 및 이용기간</li>
+                                <li>제5조 개인정보의 파기절차 및 방법</li>
+                                <li>제6조 개인정보 제공</li>
+                                <li>제7조 이용자 및 법정대리인의 권리와 그 행사방법</li>
+                                <li>제8조 개인정보 자동수집 장치의 설치, 운영 및 그 거부에 관한 사항</li>
+                                <li>제9조 개인정보에 관한 민원서비스</li>
+                                <li>제10조 고지의 의무</li>
+                                <li>기타 부칙</li>
+                            </ul>
+                        </div>
+                    
+                        <div class="culumn">
+                        <h5>제1조 총칙</h5>
+                        해피페이㈜(이하 '회사')는 이용자의 개인정보를 중요시하며, "정보통신망 이용촉진 및 정보보호에 관한 법률" 및 "개인정보보호법"을 준수하고 있습니다. 회사는 개인정보처리방침을 통하여 이용자께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다. 회사는 개인정보처리방침을 개정하는 경우 웹사이트 공지사항(또는 개별공지)을 통하여 공지할 것입니다.
+                        </div>
+                        <div class="culumn">
+                            <h5>제2조 수집하는 개인정보 항목</h5>
+                            <p>회사는 전자결제대행 및 결제대금예치 서비스, 현금영수증 서비스 그리고 휴대폰 본인확인서비스(이하 “서비스”라 칭함) 신청, 상담, 문의사항 등, 서비스의 제공을 위하여 아래와 같은 개인정보를 수집하고 있습니다.</p>
+                            <ul>
+                                <li>
+                                    1. 개인정보 수집항목
+                                    <ul>
+                                        <li>
+                                            ① 필수항목
+                                            <ul>
+                                                <li>가. 계약정보 대표자명, 대표자 주민번호, 대표자 휴대폰번호(회사번호는 해당 없음), 이메일주소, 담당자명, 담당자 휴대폰번호(회사번호는 해당 없음)</li> 
+                                                <li>나. 상기 명시된 개인정보 항목 이외의 “서비스” 이용과정이나 “서비스” 처리 과정에서 다음과 같은 추가 정보들이 자동 혹은 수동으로 생성되어 수집될 수 있습니다. 접속 IP/MAC Address, 쿠키, e-mail, 서비스 접속 일시, 서비스 이용기록, 불량 혹은 비정상 이용기록, 결제기록</li> 
+                                                <li>다. 기타 : 회사는 서비스 이용과 관련한 대금결제, 환불 등에 필요한 다음과 같은 정보 등을 추가로 수집할 수 있습니다. 은행명, 계좌번호, 예금주명, 서비스계약일 등</li> 
+                                            </ul>
+                                            ② 선택항목
+                                            <ul>
+                                                <li>가. 필수항목 이외에 계약서류에 기재된 정보 또는 고객이 제공한 정보</li>  
+                                                <li>나. 상호, 사업자등록번호, 법인번호, 주소, 팩스번호, URL 등</li> 
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>2. 수집방법</li>
+                                홈페이지(판매자 회원가입, 문의상담), 서면양식, 팩스, 이메일, 업무제휴 계약을 체결한 제휴사로부터 고객이 제시하는 개인정보 수집
+                            </ul>
+                        </div>
+                        <div class="culumn">
+                            <h5>제3조 개인정보의 수집 및 이용목적</h5>
+                            <p>회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다.</p>
+                            <ul>
+                                <li>1. 서비스 제공 계약의 성립, 유지, 종료를 위한 본인 식별 및 실명확인, 각종 회원관리, 계약서발송 등</li>
+                                <li>2. 서비스 제공 과정 중 본인 식별, 인증, 실명확인 및 각종 안내/고지</li>
+                                <li>3. 부정 이용방지 및 비인가 사용방지</li>
+                                <li>4. 제공 및 관련 업무처리에 필요한 동의 또는 철회 등 의사확인</li>
+                                <li>5. 이용 빈도 파악 및 인구통계학적 특성에 따른 서비스 제공 및 CRM</li>
+                                <li>6. 서비스 제공을 위한 각 결제수단 별 상점 사업자 정보 등록</li>
+                                <li>7. 기타 회사가 제공하는 이벤트 등 광고성 정보 전달, 통계학적 특성에 따른 서비스 제공 및 광고 게재, 실제 마케팅 활동</li>
+                            </ul>
+                        </div>
+                        <div class="culumn">
+                            <h5>제4조 개인정보의 보유 및 이용기간</h5>
+                            <p>이용자의 개인정보는 원칙적으로 개인정보의 수집 및 이용목적이 달성되면 지체 없이 파기합니다. 단 다음의 각 목에 해당하는 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다</p>
+                            <ul>
+                                <li>
+                                    1. 회사 내부 방침의 의한 정보보유
+                                    <ul>
+                                        <li>① 보존항목: 서비스 상담 수집 항목(회사명, 고객명, 전화번호, E-mail, 상담내용 등) </li>
+                                        <li>② 보존이유: 분쟁이 발생할 경우 소명자료 활용 </li>
+                                        <li>③ 보존기간: 상담 완료 후 6개월</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>상법, 전자상거래 등에서의 소비자보호에 관한 법률, 전자금융거래법 등 관련법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 관련법령에서 정한 일정한 기간 동안 정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 다음 각 호와 같습니다.</p>
+                                    <ul>
+                                        <li>
+                                            ① 계약 또는 청약철회 등에 관한 기록
+                                            <ul>
+                                                <li>가. 보존기간: 5년</li>
+                                                <li>나. 보존근거: 전자상거래 등에서의 소비자보호에 관한 법률</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            ② 대금결제 및 재화 등의 공급에 관한 기록 
+                                            <ul>
+                                                <li>가. 보존기간: 5년</li>
+                                                <li>나. 보존근거: 전자상거래 등에서의 소비자보호에 관한 법률</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            ③ 소비자의 불만 또는 분쟁처리에 관한 기록
+                                            <ul>
+                                                <li>가. 보존기간: 3년</li> 
+                                                <li>나. 보존근거: 전자상거래 등에서의 소비자보호에 관한 법률</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            ④ 본인확인에 관한 기록
+                                            <ul>
+                                                <li>가. 보존기간: 6개월 </li> 
+                                                <li>나. 보존근거: 정보통신 이용촉진 및 정보보호 등에 관한 법률</li> 
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            ⑤ 방문에 관한 기록
+                                            <ul>
+                                                <li>가. 보존기간: 3개월 </li> 
+                                                <li>나. 보존근거: 통신비밀보호법</li> 
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="culumn">
+                            <h5>제5조 개인정보의 파기절차 및 방법</h5>
+                            <ul>
+                                <li>
+                                    1. 파기절차
+                                    이용자가 회원가입, 문의사항 등을 위해 입력하신 정보는 목적이 달성된 후 별도의 DB로 옮겨져(종이의 경우 별도의 서류함) 내부 방침 및 기타 관련 법령에 의한 정보보호 사유에 따라(보유 및 이용기간 참조) 일정 기간 저장된 후 파기합니다. 별도 DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 보유 되는 이외의 다른 목적으로 이용되지 않습니다.
+                                </li>
+                                <li>
+                                    2. 파기방법
+                                    <ul>
+                                        <li>① 전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제합니다.</li>
+                                        <li>② 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기합니다.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="culumn">
+                        <h5>제6조 개인정보 제공</h5>
+                            <p>회사는 이용자의 개인정보를 [3. 개인정보의 수집 및 이용목적]에서 고지한 범위 내에서 사용하며, 이용자의 사전 동의 없이는 동 범위를 초과하여 이용하거나 원칙적으로 이용자의 개인정보를 외부에 제공하지 않습니다. 다만, 아래의 경우에는 예외로 합니다.</p>
+                            <ul>
+                                <li>1. 이용자들이 사전에 동의한 경우(이용자가 사전에 동의한 경우란, 서비스 이용 등을 위하여 이용자가 자발적으로 자신의 개인정보를 제3자에게 제공하는 것에 동의하는 것을 의미합니다.</li>
+                                <li>
+                                    2. 법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우 위의 경우에도, 회사는 이용자에게 
+                                    <ul>
+                                        <li>① 개인정보를 제공받는 자</li>
+                                        <li>② 그의 이용목적</li>
+                                        <li>③ 제공되는 개인정보의 항목</li>
+                                        <li>④ 개인정보의 보유 및 이용기간을 사전에 고지하고 이에 대해 명시적인 방법으로 개별적 동의를 얻습니다. 이와 같은 모든 과정에 있어서 회사는 이용자의 의사에 반하여 추가적인 정보를 수집하거나, 동의의 범위를 벗어난 정보를 제3자와 공유하지 않습니다.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="culumn">
+                            <h5>제7조 이용자 및 법정대리인의 권리와 그 행사방법</h5>
+                            <ul>
+                                <li>1. 이용자는 언제나 본인의 개인정보의 열람 및 오류정정을 요구할 수 있고, 이에 대해 당사는 지체 없이 필요한 조치를 취합니다. 또한 회사는 오류정정 요구가 있을 시 그 정정 때까지 당해 해당정보를 이용하지 않습니다.</li> 
+                                <li>2. 인터넷 홈페이지를 이용하여 열람, 오류정정을 하는 경우 회사 홈페이지(http://www.onoffpg.co.kr/)에 회원 아이디와 비밀번호를 입력하고 로그인 하신 후, 개인정보 변경이 가능합니다. </li>
+                                <li>3. 서비스 해지(동의철회)는 회사 고객센터(1600-8952) 전화로 연락하시거나 방문을 통한 경우에는 이용자 본인임을 확인한 후 열람/변경/회원탈퇴 신청을 하실 수 있습니다. </li>
+                                <li>4. 만14세 미만 아동(이하 "아동"이라 함)의, 개인정보 수집하지 않고 있습니다. 다만, 개인정보 수집이 필요한 경우 반드시 법정대리인의 동의를 구하고 있습니다. 회사는 법정대리인의 동의를 받기 위하여 아동으로부터 법정대리인의 성명과 연락처 등 최소한의 정보를 요구할 수 있으며, 아동의 법정대리인은 서면, 전화, E-mail, FAX 등을 통하여 아동의 개인정보에 대한 열람, 정정 및 삭제를 요청할 수 있으며, 이러한 요청이 있는 경우 회사는 지체 없이 필요한 조치를 취합니다.</li>
+                            </ul>
+                        </div>
+                        <div class="culumn">
+                        <h5>제8조 개인정보 자동수집 장치의 설치, 운영 및 그 거부에 관한 사항</h5>
+                            <p>
+                            회사는 이용자의 정보를 수시로 저장하고 찾아내는 '쿠키(cookie)'을 설치 운용합니다.<br>
+                            쿠키란 회사의 웹사이트를 운영하는데 이용되는 서버가 이용자의 브라우저에 보내는 작은 텍스트 파일로서 이용자의 컴퓨터 하드디스크에 저장됩니다.<br>
+                            회사는 다음과 같은 목적을 위해 쿠키 등을 사용합니다.
+                            </p>
+                            <ul>
+                                <li>
+                                    1. 쿠키 등 사용 목적
+                                    <ul>
+                                        <li>① 홈페이지 이용자의 접속 빈도나 방문 시간 등을 분석, 이용자의 취향과 관심분야를 파악 및 자취 추적, 각종 이벤트 참여 정도 및 방문 회수 파악 등을 통한 타겟 마케팅 및 개인 맞춤 서비스 제공 </li>
+                                        <li>② 이용자는 쿠키 설치에 대한 선택권을 가지고 있습니다. 따라서, 이용자는 웹 브라우저에서 옵션을 설정함으로써 모든 쿠키를 허용하거나, 쿠키가 저장될 때마다 확인을 거치거나, 아니면 모든 쿠키의 저장을 거부할 수도 있습니다.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    2. 쿠키 설정 거부 방법
+                                    <ul>
+                                        <li>① 쿠키 설정을 거부하는 방법으로는 이용자가 사용하시는 웹 브라우저의 옵션을 선택함으로써 모든 쿠키를 허용하거나 쿠키를 저장할 때마다 확인을 거치거나, 모든 쿠키의 저장을 거부할 수 있습니다.</li>
+                                        <li>② 설정방법 예(인터넷 익스플로어의 경우) : 웹 브라우저 상단의 도구&gt;인터넷 옵션&gt;개인정보</li>
+                                    </ul>
+                                </li>
+                                <li>3. 단, 이용자께서 쿠키 설치를 거부하였을 경우 서비스 제공에 어려움이 있을 수 있습니다.</li>
+                            </ul>
+                        </div>
+                        <div class="culumn">
+                        <h5>제9조 개인정보에 관한 민원서비스</h5>
+                            <ul>
+                                <li>회사는 이용자의 개인정보를 보호하고 개인정보와 관련한 불만을 처리하기 위하여 아래와 같이 관련 부서 및 개인정보관리책임자를 지정하고 있습니다.</li>
+                                <li>담당 부서 : 고객상담실 </li>
+                                <li>전화번호 : </li>
+                                <li>이메일 : </li>
+                                <li>개인정보관리책임자 성명 : </li>
+                                <li>전화번호 : </li>
+                                <li>이메일 : </li>
+                                <li>
+                                    귀하께서는 회사의 서비스를 이용하시며 발생하는 모든 개인정보보호 관련 민원을 개인정보관리책임자 혹은 담당부서로 신고하실 수 있습니다. 회사는 이용자들의 신고사항에 대해 신속하게 충분한 답변을 드릴 것입니다. 기타 개인정보침해에 대한 신고나 상담이 필요하신 경우에는 아래 기관에 문의하시기 바랍니다.
+                                    <ul>
+                                        1. 개인분쟁조정위원회 (www.1336.or.kr/1336) 
+                                        2. 정보보호마크인증위원회 (www.eprivacy.or.kr/02-580-0533~4) 
+                                        3. 대검찰청 인터넷범죄수사센터 (http://icic.sppo.go.kr/02-3480-3600) 
+                                        4. 경찰청 사이버테러대응센터 (www.ctrc.go.kr/02-392-0330)
+                                    </ul>
+                               </li>
+                            </ul>
+                        </div>
+                        <div class="culumn">
+                        <h5>제10조 고지의 의무</h5>
+                        현 개인정보처리방침 내용 추가, 삭제 및 수정이 있을 시에는 개정 최소 7일전부터 홈페이지의 '공지사항'을 통해 고지할 것입니다.
+                        </div>
+                        <div class="culumn">
+                        <h5>기타 부칙</h5>
+                        &lt;제1호, 2000. 00. 00.&gt;<br>
+                        본 개인정보취급방침은 2018년 11월 28일부터 시행한다.
+                        </div>
+                    </div>
+					
+					
+				
+				</div>
+                <!-- content -->
+
+			<!-- footer { -->
+			<div class=" footer">
+				<div class="ft_wrap">
+
+					<div class="f_top dw_1200px">
+						<div class = "f_content">
+							<ul>
+								<li class = "policy">이용약관</li>
+								<li class = "privacy">개인정보 취급방침</li>
+								<li class = "finance">전자금융거래 기본약관</li>
+							</ul>                        
+						</div>
+					</div>
+
+					<div class = "f_middle">
+						<div class = "dw_1200px">
+							<ul>
+								<li>해피페이 주식회사</li>
+								<li>경기 광명시 한내로 13번길 29, 3층 | 대표이사 : 서은교</li>
+								<li>고객만족센터 : 1600-8243(운영시간 : 09:00 ~ 18:00, 점심시간 : 12:00~01:00) | FAX : 02-897-8952 | 사업자 등록번호 : 140-81-49182 | 통신판매업 신고번호 : 제 2010-경기광명 0180호</li>
+								<li>Copyright©2018 HappyPay All right Reserved.</li>
+							</ul>  
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- footer { -->
+
+			
+		</div>
+		 <!-- } wrap -->
+
+    </body>
+
+</html>    
