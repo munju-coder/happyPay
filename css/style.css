@@ -133,6 +133,7 @@ align-items: center;
 .wrap .content .c_box_9 .cb9_bottom img { border: 1px solid #cacaca; }
 .wrap .content .c_box_9 .cb9_bottom .cb9_d1 { margin-bottom: 2%; }
 
+
 .cb10_middle ul li { font-size: 18px;}
 
 /* info_style content */
@@ -187,7 +188,10 @@ table th, td { padding: 7px; color:#333; text-align: center;}
 .wrap .contents_bottom { margin-bottom: 22% !important; }
 /*more_view*/
 
+/*policy_약관*/
 .terms { margin: 3%; }
+.m_b { margin-bottom: 2%; }
+
 
 /* footer */
 .wrap .footer { width:100%; overflow:hidden; }
@@ -241,7 +245,7 @@ table th, td { padding: 7px; color:#333; text-align: center;}
     .cb7_right { margin: 1% 0; padding: 1% 0;}
     .c_box_4 { margin: 10% auto !important;  }
     .img_ml_10p img { margin-left: -13%; }
-    .top_text { font-size: 25px !important;  }
+
 }
 @media screen and (max-width: 768px)  {
 
@@ -297,6 +301,7 @@ table th, td { padding: 7px; color:#333; text-align: center;}
     .c_box_1 { width: 90% !important; }
 }
 @media screen and (max-width: 500px)  {
+
     .header .login { margin:14px 0; }
     .header h1 { margin-bottom: 15px;}
     .wrap .content .c_box_9 .cb9_bottom .cb9_d1 { margin-bottom: 5% !important;}
@@ -307,7 +312,6 @@ table th, td { padding: 7px; color:#333; text-align: center;}
     .cb3_top div ul li img { width: 70%; }
     .cb3_top div > ul li { font-size: 14px; }
     .cb5_bottom1 img { width: 40%; }
-    /* .cb5_bottom2 > img { width: 70%; } */
     .cb6_middle div:first-child > img { width: 40%; }
     .cb6_middle div:nth-child(2) img { width: 70%; }
     .cb6_middle div:nth-child(2) > div:nth-child(3) > img { width: 10%; }
@@ -318,8 +322,8 @@ table th, td { padding: 7px; color:#333; text-align: center;}
     .cb9_bottom > div > img  { width: 70%; }
     .cb10_middle ul li { font-size: 13px; }
     .recover_btn { font-size: 13px; width: 190px; }
-
     .td_none {display: none;}
+    .top_text { font-size: 16px !important;}
     
 
 }
